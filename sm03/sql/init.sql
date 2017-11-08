@@ -9,5 +9,6 @@ create table t_province(
 create table t_city(
 	id int(10) primary key auto_increment,
 	name varchar(100),
+	city_id int(10),
 	CONSTRAINT FOREIGN KEY(city_id) REFERENCES t_province(id)
 )
