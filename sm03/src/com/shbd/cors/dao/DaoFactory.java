@@ -1,7 +1,7 @@
 package com.shbd.cors.dao;
 
 public class DaoFactory {
-	IProvinceDao getProvinceDao() {
+	public static IProvinceDao getProvinceDao() {
 		return new ProvinceDao();
 	}
 

@@ -13,6 +13,9 @@ public class PropertiesUtilTest {
 		Properties p1 = PropertiesUtil.getJdbcProp();
 		Properties p2 = PropertiesUtil.getJdbcProp();
 		System.out.println(p1==p2);
+		System.out.println(p1.get("username"));
+		System.out.println(p1.get("password"));
+		System.out.println(p1.get("url"));
 	}
 
 }

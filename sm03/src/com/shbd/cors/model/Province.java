@@ -3,6 +3,20 @@ package com.shbd.cors.model;
 public class Province {
 	private int id;
 	private String name;
+	
+	
+
+	public Province() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+
+	public Province(int id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}	
 
 	public int getId() {
 		return id;
